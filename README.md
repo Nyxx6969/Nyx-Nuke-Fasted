@@ -45,7 +45,7 @@ pip install -r requirements.txt; python main.python
 ### Termux
 - Here is the one line command for Installation:
 ```shell
-pkg update -y && pkg upgrade -y && pkg install python git && git clone https://github.com/Bad-Discord/Discord-Nuker && cd Discord-Nuker && pip install -r requirements.txt && python main.py
+pkg update -y && pkg upgrade -y && pkg install python git && git clone https://github.com/Nyx-Nuke-Fasted && cd Discord-Nuker && pip install -r requirements.txt && python main.py
 ```
 - Just copy and paste it in your Termux's shell
 
@@ -57,3 +57,43 @@ pkg update -y && pkg upgrade -y && pkg install python git && git clone https://g
 - Use `python main.py` or run it manually by double click
 - Make sure you have python installed on your pc. 
 - [Python3.7.12](https://www.python.org/downloads/release/python-3712/) or higher (except [Python3.12.0](https://www.python.org/downloads/release/python-3120/) it's trash)
+
+### Using Sessions
+
+ - Create a [Session](https://github.com/Nyx-Nuker-Fasted/#sessions) file and then run `python main.py <your session>`
+
+```bash
+python main.py session.json
+```
+
+
+## Sessions
+### What is Sessions?
+if you're Too lazy to copy and paste the same token every time; create a Session file insted and run the code with the session file. 
+
+- Create a `.json` file in root folder or somewhere and then paste the text bellow on it 
+
+```json
+{
+    "Token": "Your Token",
+    "SpamTexts": ["Some Texts", "For Spam"],
+    "SpamAmount": 50,
+    "ServerName": "Logique Nuked this Guild Bruh!",
+    "SpamInviteLink": "discord.gg/cool-people"
+}
+```
+
+`Token`: Your nuker bot's token
+
+`Spam Texts`: Some Texts for sending in spam messages
+
+`SpamAmount`: The number of channels and roles to be created and the number of messages to be sent
+
+`ServerName`: A name to change the main name of the server
+
+`SpamInviteLink`: Your server invite link that you want to spam it
+
+## ⚠ Disclaimer
+
+This script is educational and fully coded by M. logique aka @1ogi in discord
+if you choose to abuse this tool it's are your fault and M. logique will not accept anything about you're mistake
