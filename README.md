@@ -37,9 +37,8 @@
 - Extract zip
 - Open a terminal and paste this code in it:
 ```bash
-pip install -r requirements.txt; python main.python
+open main.exe and put y
 ``` 
-- **Or** just open the `main.py` and let it install its requirements
 
 
 ### Termux
