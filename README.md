@@ -53,7 +53,7 @@ pkg update -y && pkg upgrade -y && pkg install python git && git clone https://g
 ## 🤔 Usage
 
 ### Normal Usage
-- Use `python main.py` or run it manually by double click
+- Use `main.exe` run it manually by double click
 - Make sure you have python installed on your pc. 
 - [Python3.7.12](https://www.python.org/downloads/release/python-3712/) or higher (except [Python3.12.0](https://www.python.org/downloads/release/python-3120/) it's trash)
 
