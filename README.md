@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-[<a href="https://github.com/Bad-Discord/Discord-Nuker/#installation"> How to install</a> ]
+[<a href="https://github.com/Nyx-Nuker-Fasted/#installation"> How to install</a> ]
 
 </p>
 
